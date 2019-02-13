@@ -3,7 +3,7 @@
  * User: yk
  */
 
-namespace dt\linear;
+namespace dt\sequential;
 
 /**
  * 线性结构栈

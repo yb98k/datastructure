@@ -3,7 +3,7 @@
 include ( __DIR__ . '/../vendor/autoload.php');
 
 //线性栈
-$stack = new \dt\linear\Stack();
+$stack = new \dt\sequential\Stack();
 
 $stack->push('123123')->push('234123421')->push('324325')->push('4534534');
 

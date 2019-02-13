@@ -6,7 +6,7 @@
  * Time: 上午11:49
  */
 
-namespace dt\linear;
+namespace dt\sequential;
 
 
 class Queue {

@@ -3,7 +3,7 @@
 include ( __DIR__ . '/../vendor/autoload.php');
 
 //线性队列
-$queue = new \dt\linear\Queue();
+$queue = new \dt\sequential\Queue();
 
 $queue->enqueue('3423423')->enqueue(432424)->enqueue(['322', '123123'])->enqueue('66666');
 
