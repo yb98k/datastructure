@@ -8,6 +8,11 @@ namespace dt\nonlinear;
 
 use dt\nonlinear\structure\SNode;
 
+/**
+ * 链式结构栈
+ * Class LinkStack
+ * @package dt\nonlinear
+ */
 class LinkStack
 {
     /**

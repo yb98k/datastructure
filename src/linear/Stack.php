@@ -76,7 +76,7 @@ class Stack {
      */
     public function getTop()
     {
-        return $this->isEmpty() ? false : end($this->stack);
+        return $this->isEmpty() ? null : end($this->stack);
     }
 
     /**
