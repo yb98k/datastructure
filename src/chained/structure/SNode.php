@@ -3,21 +3,21 @@
  * Created by PhpStorm.
  * User: yk
  * Date: 19-2-13
- * Time: 下午2:00
+ * Time: 上午9:51
  */
 
-namespace dt\nonlinear\structure;
+namespace dt\chained\structure;
 
 
-class QNode {
-
+class SNode
+{
     public $data;
 
-    public $next;
+    public $prior;
 
     public function __construct()
     {
         $this->data = null;
-        $this->next = null;
+        $this->prior = null;
     }
 }

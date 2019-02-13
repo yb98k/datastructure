@@ -11,7 +11,7 @@ var_dump($stack->pop());
 var_dump($stack->getTop());
 
 //链栈
-$linkStack = new \dt\nonlinear\LinkStack();
+$linkStack = new \dt\chained\LinkStack();
 
 $linkStack->push('123123')->push('234123421')->push('324325')->push('4534534');
 

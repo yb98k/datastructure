@@ -6,10 +6,10 @@
  * Time: 下午2:01
  */
 
-namespace dt\nonlinear;
+namespace dt\chained;
 
 
-use dt\nonlinear\structure\QNode;
+use dt\chained\structure\QNode;
 
 class LinkQueue {
 

@@ -14,7 +14,7 @@ var_dump($queue->getQueueFront());
 
 
 //链式队列
-$linkQueue = new \dt\nonlinear\LinkQueue();
+$linkQueue = new \dt\chained\LinkQueue();
 
 $linkQueue->enqueue('3423423')->enqueue(432424)->enqueue(['322', '123123'])->enqueue('66666');
 

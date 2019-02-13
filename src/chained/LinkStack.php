@@ -3,10 +3,10 @@
  * User: yk
  */
 
-namespace dt\nonlinear;
+namespace dt\chained;
 
 
-use dt\nonlinear\structure\SNode;
+use dt\chained\structure\SNode;
 
 /**
  * 链式结构栈
