@@ -1,0 +1,21 @@
+{
+    "name": "yk98k/datastructure",
+    "description": "a php datastructure package",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yk",
+            "email": "yk98k@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "dt\\": "src//"
+        }
+    }
+}
